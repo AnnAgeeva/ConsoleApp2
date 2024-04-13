@@ -23,7 +23,7 @@ namespace ConsoleApp2
             Console.WriteLine(programscore);
             Console.WriteLine(mathcsore);
             Console.WriteLine(phisicscore);
-            Console.ReadLine();
+            Console.ReadKey();
 
             double summ = programscore + mathcsore + phisicscore;
             double average = summ / 3;
